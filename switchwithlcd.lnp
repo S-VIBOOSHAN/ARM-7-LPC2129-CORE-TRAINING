@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "switchwithlcd.o" --strict --scatter "switchwithlcd.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\switchwithlcd.map" -o switchwithlcd.axf

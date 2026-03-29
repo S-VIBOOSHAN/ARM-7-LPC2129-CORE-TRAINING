@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "op2lcd.o" --strict --scatter "OP2.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\OP2.map" -o OP2.axf

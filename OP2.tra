@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'OP2.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"op2lcd.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "op2lcd.o" --strict --scatter "OP2.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\OP2.map" -o OP2.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'OP2.axf'
+### ADS-LD Command File: 'OP2.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'OP2.lnp', Handle=0x00000308
+### Writing '.lnp' file
+### ADS-LD Command file 'OP2.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
